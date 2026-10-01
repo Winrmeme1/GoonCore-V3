@@ -1,0 +1,15 @@
+{
+  "name": "gooncore-web-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GoonCore: a privacy-minded web and games hub with a secure, local HTTP proxy.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test"
+  }
+}
